@@ -105,7 +105,7 @@ button.pulse { animation: pulse 3s infinite; }
 </audio>
 
 <script>
-const hisName = "GODRICK ILETAACH";
+const herName = "GODRICK ILETAACH";
 const giftButton = document.getElementById("giftButton");
 const music = document.getElementById("music");
 const msg = document.getElementById("msg");
@@ -203,16 +203,16 @@ function startMagic(){
   msg.innerText="";
 
   setTimeout(()=>{ msg.innerText=`A heartfelt Christmas gift from your bro,\nPrince de Lee 🎁`; },1800);
-  setTimeout(()=>{ msg.innerText+=`\n\nMerry Christmas ${hisName} 🎄`; },3500);
+  setTimeout(()=>{ msg.innerText+=`\n\nMerry Christmas ${herName} 🎄`; },3500);
   setTimeout(()=>{ msg.innerText+=`\nI hope today treats you kindly and makes you smile.`; },5200);
   setTimeout(()=>{ msg.innerText+=`\nI could’ve sent a text…`; },6800);
-  setTimeout(()=>{ msg.innerText+=`\nbut it wouldnt seem enough 😌`; },8300);
+  setTimeout(()=>{ msg.innerText+=`\nbut I chose to be extra 😌`; },8300);
   setTimeout(()=>{
-    msg.innerText+=`\n\nBro for life;
+    msg.innerText+=`\n\nbro for life 💛`;
     giftButton.disabled=false;
     giftButton.innerText="Play Again 🎶";
     giftButton.classList.add("pulse");
-    fireworksText("Merry X-mass Godrick");
+    fireworksText("Merry X-mass Bro");
     createStars();
   },10000);
 }
